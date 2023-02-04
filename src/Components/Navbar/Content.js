@@ -77,10 +77,8 @@ const ImageWrapper = styled.div`
 
 const Content = () => {
   const { cardsData,setcardsData,loading,setloading } = useContext(CardsContext);
-  console.log("cardsData", cardsData);
 
   const handleInitialData = async () => {
-    //setLoading(true)
     setloading(true)
     const url = `https://fakestoreapi.com/products?limit=20`;
     const res = await (await fetch(url)).json();

@@ -13,6 +13,9 @@ const Wrapper = styled.div`
  top: 0;
  z-index: 12;
  overflow: hidden;
+    @media (max-width: 576px){
+    font-size:0.6rem;
+ }
  
 `
 const NavBarData = [
@@ -24,6 +27,10 @@ const NavBarButton = styled.button`
  all: unset;
   cursor: pointer;
   margin:1rem;
+  
+   @media (max-width: 576px){
+    margin:0.3rem
+ }
  
 ` 
 
