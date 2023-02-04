@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { CardsContext } from "../../CardsDataContext/Context";
 import { useContext, useEffect } from "react";
-import Spinner from '../../Spinner.svg'
 import Spinner2 from '../../VAyR.gif'
 
 const Wrapper = styled.div`
